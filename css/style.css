@@ -351,9 +351,9 @@ a:hover
 {
   background-color: rgba(90, 90, 90, 0.4);
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 20px 4px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
   padding: 20px;
+}
 }
 .progress {
     position: relative;
@@ -361,9 +361,8 @@ a:hover
 }
 .progress > .progress-type {
 	position: absolute;
-	left: 0px;
+	left: 85px;
 	font-weight: 800;
-	padding: 3px 30px 2px 10px;
 	color: rgb(255, 255, 255);
 	background-color: rgba(25, 25, 25, 0.2);
 }
