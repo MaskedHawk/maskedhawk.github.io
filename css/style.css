@@ -317,6 +317,13 @@ a:hover
       width : 25%;
   }
 }
+@media(max-width: 570px)
+{
+  iframe
+  {
+    display: none;
+  }
+}
 .title h1
 {
   line-height: 20px;
